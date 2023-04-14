@@ -1,0 +1,75 @@
+Adaptive System Definition
+
+
+MATHS GRE
+Start:
+
+	- Start Screen
+
+		Page 1: Background
+		- Ask name - personalistion throught the app
+		// - Ask Age - age is just a number
+
+		Page 2: Learning Style
+		- Questions for learning style
+
+		Page 3: Skill Level - topics in maths (Knowledge modelling) (tweak the level and domain of questions)
+		- Ask 10 GRE questions - 10
+			- 5 easy
+			- 3 moderate
+			- 2 difficult
+
+			features
+			 - right/wrong 
+			 - time taken per question 
+			 	- 2 min easy  - every min penalty of 1 and bonus of 1 if before min, 3 med - every min penalty of 1 and bonus of 1.2 if before min, 4 hard - every min penalty of 0.8 and bonus of 2 if before min
+			 - 
+		- Identify topics and strengths (implicit)
+			- based on total score
+			- based on topics
+
+		- Identify Expertise / Poor / Goal Topics (Implicit)
+			- Recommend Goals
+
+		Page 4: Motivations (behaviour modelling) (change the number of questions asked to user when using app / taking tests)
+		- Has user taken GRE before?
+			- When are planning to take GRE? <4 (7-9), 5-12 (4-7), >1year (1-4)
+			- What has user scored? <140 (1-4), 140-160 (4-7), >160 (7-9) 
+			- How long was it taken? >2 (1-4), 1-2 (4-7), <1 (7-9)
+			- How many times has he taken it overall? 1 (7-9), 2 (4-7), >3 (1 - 4)
+			- What score do you want to achieve next? 160-170 (7-9), (140-160) (4-7), No idea (1 - 4)
+		- Not taken
+			- When are planning to take GRE? <4 (7-9), 5-12 (4-7), >1year (1-4)
+			- What score do you want to achieve? 160-170 (7-9), (140-160) (4-7), No idea (1 - 4)
+
+		- Recommend Goals
+			- time to put each day
+			- total num of questions per day etc
+
+
+Model Features 
+	- Skill level score per subject
+		- Update these recursively using Daily Feedback Score
+	- Motivation score
+	- Learning style
+
+Integration of User Interaction
+	- Time spent each day
+	- total no of questions done each day
+	- Time spend on each question
+	- Accuracy rate - right vs wrong
+	- Implcitly check if user reaching recommended goals or going further away 
+
+
+
+output:
+very easy, easy, medium, not so hard, hard, very hard
+
+give one <very hard> <word> problem for <algrbra, geometery>
+
+give <long, short with images, with figuers etc> explanation for the above question
+
+
+User Model (User information in User Profile) 
+Knowledge Database 
+chatGPT

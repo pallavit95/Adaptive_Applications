@@ -1,0 +1,69 @@
+User_Interaction{
+	Timestamp:,
+
+	login_timestamp:,
+
+	Time_spent_today: ,
+
+	Total_questions_today: ,
+
+	Accuracy_today : ,
+
+	Goals_achieved {
+		subject_goals[
+			{
+				topic_name: ratio,
+				goal_accuracy: ,
+				total_questions: 
+			}
+		],
+		global_goals{
+			total_score:,
+			total_accuracy:,
+			total_time_each_day:
+		}
+	},
+
+	test {
+		total_score:,
+		total_time_taken:,
+		questions [
+			{
+				question :,
+				topic: [algebra, geometry],
+				difficulty_level:,
+				correct/incorrect:,
+				time_taken:,
+			},
+			{
+				question :,
+				topic: [geo, areas],
+				difficulty_level:,
+				correct/incorrect:,
+				time_taken:,
+			}
+		]
+	}
+}
+
+
+If x and y are integers such that x + y = 10, what is the value of x^2 + y^2? [Algebra, Systems of Equations - Level 1]
+
+A rectangular room has a length of 10 feet and a width of 8 feet. What is the area of the room in square yards? [Geometry, Measurement Conversions - Level 1]
+
+If f(x) = 2x - 3 and g(x) = 5x + 1, what is the value of f(g(2))? [Functions, Composition - Level 2]
+
+If x is a real number such that 3|x| + 5 = 20, what is the value of x? [Algebra, Absolute Value - Level 2]
+
+A box contains 4 red balls and 6 blue balls. If two balls are selected at random without replacement, what is the probability that at least one ball is red? [Probability, Combinations - Level 2]
+
+The hypotenuse of a right triangle is 13 units and one leg is 5 units. What is the length of the other leg? [Geometry, Pythagorean Theorem - Level 3]
+
+A company produces 500 widgets per hour. If the company operates for 8 hours per day, how many widgets will be produced in 5 days? [Arithmetic, Word Problems - Level 3]
+
+If the circumference of a circle is 20π units, what is the area of the circle in square units? [Geometry, Circles - Level 4]
+
+If a rectangular prism has a length of 10 units, a width of 8 units, and a height of 6 units, what is the volume of the prism in cubic meters? [Geometry, Measurement Conversions - Level 4]
+
+If the sum of the first n positive integers is 435, what is the value of n? [Algebra, Series - Level 5]
+

@@ -1,0 +1,40 @@
+Adaptive Notes
+
+--------------------------------------------------------------------------------------------------------------------
+ILESA
+WITS
+WEB-PVT
+User Bheviour, Motivation, 
+Affective State
+--------------------------------------------------------------------------------------------------------------------
+
+(Siyu and Hao)
+Questionaire - User Modelling
+	- Motivated - (time spent, how good are you, how much time can you give? (0-5))
+					motivation level - 5
+					login - logins daily/total no of days since account creation .... <reducing... 
+					motivation level - 5 decrease by 0.5
+	- Concepts or problem solving
+	- Areas
+
+(Rui)
+Build a user model 
+	machine learning model - will power the sentence generation for open ai
+
+(Pallavit)
+Query chatgpt using open-ai api - query for questions
+
+(Shritesh)
+UI and UX - Think about adaptable components and how they will be presented to the user
+
+eg:
+based on user performance
+"the above problems are {solvable / not solvable} can you include a {bit of proportions} {hard/easy level} in the above
+
+Techstack 
+
+Backend - Python
+DB - SQL / PostgreSQL
+UI - 
+
+Re-group - 5-6 - report..

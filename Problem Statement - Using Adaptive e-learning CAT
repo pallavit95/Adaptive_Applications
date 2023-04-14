@@ -1,0 +1,11 @@
+Problem Statement - Using Adaptive e-learning CAT based system to help user figure out gaps in their subject of choice and give aide to their learning
+
+How - Yet to be defined
+
+Open AI - GPT-3 involved 
+
+Models - Python, Tensorflow, Pytorch
+Backend - Django
+UI - React
+Database - Postgresql (Metadata - (time taken, right wrong))
+Deployed - Cloud (AWS/AZURE/HEROKU/GCP)

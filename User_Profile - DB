@@ -1,0 +1,79 @@
+User_Profile {
+	
+	Skills [
+	{
+		topic_name: geometry,
+		right: 5,
+		wrong: 5,
+		time taken per question:10 seconds,
+		actual_accuracy:,
+		total_questions:
+
+	}, 
+	{
+		topic_name: algebra,
+		right: 5,
+		wrong: 5,
+		time taken per question:10 seconds,
+		actual_accuracy:,
+		total_questions:
+	},
+	{
+		topic_name: ratio,
+		right: 5,
+		wrong: 5,
+		time taken per question:10 seconds,
+		actual_accuracy:,
+		total_questions:
+	}],
+
+	User_Performance {
+		avg_accuracy:,
+		avg_time:,
+		avg_question_daily:,
+		total_score:
+	},
+
+	learningstyle
+	{
+		active: 1,
+		reflective: 0,
+		intuitive:0,
+		verbal:1,
+		visual:0,
+		sequential:0,
+		global:1
+
+	},
+
+	motivation_score: 0-1, (logic is to query 2-3 days user interaction and based on avg. percentage change of total_score:,total_accuracy:,total_time_each_day >75% incr motivation by 0.1, <75% decr motivation by 0.1)(130%,0%,80% - )
+
+	Goals {
+		subject_goals[
+		{
+			topic_name: ratio,
+			goal_accuracy: ,
+			total_questions: ,
+
+
+		},
+		{
+			topic_name: geomtery,
+			goal_accuracy: ,
+			total_questions: ,
+			
+		}],
+		global_goals{
+			total_score:,
+			total_accuracy:,
+		}
+	},
+
+	user_information {
+		gender:,
+		name:,
+		nickname:,
+		dob:
+	}
+
+}
